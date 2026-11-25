@@ -15,14 +15,7 @@ Serviço responsável pelo **Control Plane** do ecossistema Thermora. Gerencia a
 
 O serviço deve seguir uma **Arquitetura em Camadas Idiomática**, mantendo baixo acoplamento e facilitando a manutenção: 
 
-Mostrar código
-
-Ocultar código
-
-Baixar SVG do diagrama
-
-ASCII
-
+```text
 thermora-core/
 ├── cmd/
 │   └── api/
@@ -39,10 +32,7 @@ thermora-core/
 ├── .env.example              # Template de variáveis necessárias
 ├── Dockerfile
 └── go.mod
-
-Use o código com cuidado.
-
-Copiar o texto do código para a área de transferência.
+```
 
 #### Diretrizes Obrigatórias
 
